@@ -1,0 +1,102 @@
+.tax-calculator {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+.tax-calculator h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.field {
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.investment-buttons {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.investment-buttons button {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    text-align: center;
+}
+
+.investment-details-tags {
+    display: flex;
+    padding: 5px 15px;
+}
+
+.investment-details-tags p {
+    font-size: 14px;
+    width: 50%;
+    text-align: center;
+}
+
+.investment-buttons button.active {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+}
+
+.field p {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.result {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+
+.result p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.simple-text {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    text-align: center;
+}
